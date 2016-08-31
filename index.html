@@ -315,17 +315,28 @@
       
         
           
-          frist of allHTML files have a  and a  (just like you!)
-名词解释HTML stands for HyperText Markup Language. Hypertext means “text with links in it.”
-A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more. HTML is the markup language we’ll be learning.
-That’s CSS—Cascading Style Sheets. Think of it like skin and makeup that covers the bones of HTML. We’ll learn HTML first, then worry about CSS in l
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/31/HTMLCSS学习笔记/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+            <h1 id="frist-of-all"><a href="#frist-of-all" class="headerlink" title="frist of all"></a>frist of all</h1><p>HTML files have a <head> and a </head><body> (just like you!)</body></p>
+<h1 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h1><p><strong>HTML</strong> stands for HyperText Markup Language. Hypertext means “text with links in it.”</p>
+<p>A <strong>markup</strong> language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more. HTML is the markup language we’ll be learning.</p>
+<p>That’s <strong>CSS</strong>—Cascading Style Sheets. Think of it like skin and makeup that covers the bones of HTML. We’ll learn HTML first, then worry about CSS in later courses.</p>
+<h1 id="文档框架规范"><a href="#文档框架规范" class="headerlink" title="文档框架规范"></a>文档框架规范</h1><p>a. Always put &lt;!DOCTYPE html&gt; on the first line. This tells the browser what language it’s reading (in this case, HTML).<br>b. Always put <html> on the next line. This starts the HTML document.<br>c. Always put </html> on the last line. This ends the HTML document.</p>
+<h1 id="名词解释-1"><a href="#名词解释-1" class="headerlink" title="名词解释"></a>名词解释</h1><h2 id="tags-lt-gt"><a href="#tags-lt-gt" class="headerlink" title="tags &lt;&gt;"></a>tags &lt;&gt;</h2><p>Things inside &lt;&gt;s are called tags.<br>Tags nearly always come in pairs: an opening tag and a closing tag.<br>Example of opening tag: <html><br>Example of closing tag: </html></p>
+<p>You can think of tags as being like parentheses: whenever you open one, you should close it. Tags also nest, so you should close them in the right order: the most recently opened tag should be the first one closed, like in the example below.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;first tag&gt;&lt;second tag&gt;Some text!&lt;/second tag&gt;&lt;/first tag&gt;</div></pre></td></tr></table></figure>
+<h2 id="Head"><a href="#Head" class="headerlink" title="Head"></a>Head</h2><p>The head contains information about your HTML file, like its title. The title is what we see in the browser’s title bar or page tab. For example the title of this page is “HTML Basics | Codecademy”.</p>
+<h2 id="Body"><a href="#Body" class="headerlink" title="Body"></a>Body</h2><p>The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;html&gt;</div><div class="line">  &lt;head&gt;</div><div class="line">    &lt;title&gt;My Webpage&lt;/title&gt;</div><div class="line">  &lt;/head&gt;</div><div class="line"></div><div class="line">  &lt;body&gt;</div><div class="line">  &lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
+<h2 id="Paragraph"><a href="#Paragraph" class="headerlink" title="Paragraph"></a>Paragraph</h2><p>Inside the body, create two paragraphs. Each paragraph starts with an opening </p><p> tag and ends with a closing </p> tag. We can write content in between the tags, like this:<p></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;body&gt;</div><div class="line">    &lt;p&gt;Hello world!&lt;/p&gt;</div><div class="line">&lt;/body&gt;</div></pre></td></tr></table></figure>
+<h2 id="headings"><a href="#headings" class="headerlink" title="headings"></a>headings</h2><p>HTML actually lets us have more than one heading size. There are six heading sizes, where </p><h1> is the boss and <h6> is puny!<p></p>
+<p></p><h1> - The CEO<p></p>
+<p></p><h2> - VP<p></p>
+<p></p><h3> - Director<p></p>
+<p></p><h4> - Middle management<p></p>
+<p></p><h5> - Lowly assistant<p></p>
+<p></p><h6> - Gets coffee for everyone<p></p>
+<h2 id="hyperlinks"><a href="#hyperlinks" class="headerlink" title="hyperlinks"></a>hyperlinks</h2></h6></h5></h4></h3></h2></h1></h6></h1>
+          
         
       
     </div>
@@ -443,27 +454,44 @@ That’s CSS—Cascading Style Sheets. Think of it like skin and makeup that cov
       
         
           
-          Inspector/检查器简单地说，Inspector就是一个编辑器，对你添加在Sketch画布当中的 Shape, Text, Image等控件进行编辑的一个工具，就在Sketch的右侧——和Axure一样，是不是？
-我选中一个矩形，Inspector中出现的就是这个矩形的基本信息，你可以改变它的大小，位置，边线，填充色等等
-如果双击这个矩形，就会进入图形编辑的Inspector这意味着你可以改变这个矩形的形状啦。
-关于检查器，几个重要的通用性质是：
+            <h2 id="Inspector-检查器"><a href="#Inspector-检查器" class="headerlink" title="Inspector/检查器"></a>Inspector/检查器</h2><p>简单地说，Inspector就是一个编辑器，对你添加在Sketch画布当中的 Shape, Text, Image等控件进行编辑的一个工具，就在Sketch的右侧——和Axure一样，是不是？</p>
+<p>我选中一个矩形，Inspector中出现的就是这个矩形的基本信息，你可以改变它的大小，位置，边线，填充色等等<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:55:29.jpg" alt="2016-08-16_16:55:29.jpg"></p>
+<p>如果双击这个矩形，就会进入图形编辑的Inspector<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:56:53.jpg" alt="2016-08-16_16:56:53.jpg"><br>这意味着你可以改变这个矩形的形状啦。</p>
+<p>关于检查器，几个重要的通用性质是：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_17:05:24.jpg" alt="2016-08-16_17:05:24.jpg"></p>
+<ul>
+<li>点击<code>+</code>，会增加一层Style。Style可以叠加。</li>
+<li>点击<code>小齿轮</code>可以对这做全局设置。</li>
+<li>Checkbox处，打勾则此效果显示在图层中，不打勾则不显示。</li>
+<li>对某一条效果右键后可以点击delete删除。</li>
+</ul>
+<h2 id="Symbols"><a href="#Symbols" class="headerlink" title="Symbols"></a>Symbols</h2><p>用过Axure的同学肯定不会对<code>母版</code>和<code>部件</code>自定义感到陌生，都是可以让你标准化自己的UI组件的好功能，但它们的上手不是那么的友好</p>
+<p>Sketch里有个相似的功能叫做<code>Symbol</code>，无论是理解还是操作，都简易一些。</p>
+<p>如图，我们要做两个手机APP页面，一个是HomePage，一个是About Page。这些Page上都有Navigation Bar。我们的目的就是把顶栏给标准化，可以反复使用，一次更改，多处生效。</p>
+<ul>
+<li><p>就这条简单的Bar~名称+图标+背景色，选中它们：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:48:03.jpg" alt="2016-08-20_16:48:03.jpg"></p>
+</li>
+<li><p>选中所有元素，<code>CMD</code>+<code>G</code>把它们组合成一个Group，重命名为<code>Bar</code><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:48:59.jpg" alt="2016-08-20_16:48:59.jpg"></p>
+</li>
+<li><p>选中这个Group，然后点击<code>Create Symbol</code><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:50:23.jpg" alt="2016-08-20_16:50:23.jpg"></p>
+</li>
+<li><p>我们的Bar group就变成symbol啦，紫色的~</p>
+</li>
+</ul>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:50:54.jpg" alt="2016-08-20_16:50:54.jpg">  </p>
+<ul>
+<li>接下来，你可以在<code>Insert</code>-<code>Symbol</code>里看到刚才做好的Symbol了，直接选择<code>Bar</code>：</li>
+</ul>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:52:10.jpg" alt="2016-08-20_16:52:10.jpg"></p>
+<ul>
+<li><p>现在我们可以看到，在另外一个Artboard上出现了一毛一样的Group：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:53:14.jpg" alt="2016-08-20_16:53:14.jpg"></p>
+</li>
+<li><p>假如你对这个Symbol做更改，那么改动会全局生效：</p>
+</li>
+</ul>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-20_16:53:58.jpg" alt="2016-08-20_16:53:58.jpg"></p>
 
-
-点击+，会增加一层Style。Style可以叠加。
-点击小齿轮可以对这做全局设置。
-Checkbox处，打勾则此效果显示在图层中，不打勾则不显示。
-对某一条效果右键后可以点击delete删除。
-
-Symbols用过Axure的同学肯定不会对母版和部件自定义感到陌生，都是可以让你标准化自己的UI组件的好功能，但它们的上手不是那么的友好
-Sketch里有个相似的功能叫做Symbol，无论是理解还是操作，都简易一些。
-如图，我们要做两个手机APP页面，一个是HomePage，一个是About Page。这些Page上都有Navigatio
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/20/Sketch学习笔记：Inspector和Symbols 2016-08-20/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
         
       
     </div>
@@ -581,24 +609,26 @@ Sketch里有个相似的功能叫做Symbol，无论是理解还是操作，都�
       
         
           
-          Page, Artboard和Group的层级关系
-Sketch中的图有三个层级关系，用思维导图简略表示如下：
+            <p>Page, Artboard和Group的层级关系</p>
+<p>Sketch中的图有三个层级关系，用思维导图简略表示如下：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:19:27.jpg" alt="2016-08-16_16:19:27.jpg"></p>
+<h1 id="1-Page"><a href="#1-Page" class="headerlink" title="1. Page"></a>1. Page</h1><p>一个Page下边可以有多个Artboard和Group，Group可以从属于Artboard。</p>
+<p>Page的画布是无限大的，可以随意添加Artboard、图形。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:23:26.jpg" alt="2016-08-16_16:23:26.jpg"></p>
+<h1 id="2-Artboard"><a href="#2-Artboard" class="headerlink" title="2. Artboard"></a>2. Artboard</h1><p>如上所示，Page之下的第二级就是Artboard。可以理解Artboard就是无限大的Sketch画布中的一块块区域；</p>
+<p>在Axure中，我们如果想要在一页画布上呈现多个<code>手机屏幕</code>大小的区域，必须自己去定义母版、或者使用别人做好的组件，为了方便操作还得进行锁定之类的操作，其实不是很方便的。</p>
+<p>在Sketch中，可以很方便地添加常用的Artboard，官方已经自带了。按住键盘上的A就可以快捷添加Artboard，右侧会出现常用的选择：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:10:58.jpg" alt="2016-08-16_16:10:58.jpg"></p>
+<h1 id="3-Group"><a href="#3-Group" class="headerlink" title="3. Group"></a>3. Group</h1><p>Group可以是 一些图形的集合：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:01:29.jpg" alt="2016-08-16_16:01:29.jpg"><br>如图所示，如果你把三个图形选中并组合它们，它们会成为一个Group。你可以重命名这个Group，还可以把其他的图形拖进来。这个Group现在和其他的Artboard是同级的。<br>在一个Group里的的图形，鼠标移过时会显示蓝框范围：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:03:40.jpg" alt="2016-08-16_16:03:40.jpg"></p>
+<p>假设你画一个Artboard把这个Group所有的图形框起来，你会看到此Group被归于这个Artboard之下了；</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:05:07.jpg" alt="2016-08-16_16:05:07.jpg"></p>
+<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><p>我们现在用空白的Page3做添加Artboard的演示：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:11:45.jpg" alt="2016-08-16_16:11:45.jpg"></p>
+<p>按住A以后分别添加iPhone 6\iPhone 5c\Ipad Portrait:</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-08-16_16:13:07.jpg" alt="2016-08-16_16:13:07.jpg"></p>
+<p>可以看到现在我们的Page3上已经有了这三个常用的移动端画布啦，可以开始设计了！</p>
 
-1. Page一个Page下边可以有多个Artboard和Group，Group可以从属于Artboard。
-Page的画布是无限大的，可以随意添加Artboard、图形。
-
-2. Artboard如上所示，Page之下的第二级就是Artboard。可以理解Artboard就是无限大的Sketch画布中的一块块区域；
-在Axure中，我们如果想要在一页画布上呈现多个手机屏幕大小的区域，必须自己去定义母版、或者使用别人做好的组件，为了方便操作还得进行锁定之类的操作，其实不是很方便的。
-在Sketch中，可以很方便地添加常用的Artboard，官方已经自带了。按住键盘上的A就可以快捷添加Artboard，右侧会出现常用的选择：
-
-3. GroupGroup可以是 一些图形的集合：如图所示，如果你把三个图形选中并组合它们，它们会成为一个Group。你可以重命名这个Group，还可以把其他的图形拖进来。这个Group现在和其他的Artboard是同级的。在一个Group里的的图形，
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/16/Sketch学习笔记：Page, Artboard和Group的层级关系 2016-08-16/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
         
       
     </div>
@@ -697,22 +727,39 @@ Page的画布是无限大的，可以随意添加Artboard、图形。
       
         
           
+            <blockquote>
+<p>所有人一开始都是菜鸟。是在不断的被虐和死亡失败中成长起来。</p>
+</blockquote>
+<p>这是玩PS4联机网战的感受。作为一个娱乐型玩家，其实我打联机很少；自从买了PlayStation Plus，玩了第一把美国末日联机之后就停不下来，准确地说是输的停不下来……</p>
+<p>游戏的魅力也在于此：就算你输了，你也会想要继续尝试下一局，因为你得到了良好的反馈（正反馈：虽然我输了，可是我拿了一个人头；负反馈：我死了6次，是因为这里没瞄准……那里没蹲好……我们很清晰地知道自己下一局中可以做出那些改变、提升来做的更好，所以跃跃欲试）</p>
+<p>而现在的联机游戏基本都是如此：你开车最后一名，你玩联机死了6次，也一样会有经验值和升级。虽然有时候你觉得：玛德ZZ，明明我没有提升啊？可是当你死着死着，倒数倒数到了几十级，你就发现，诶，我没死那么多了，我开始变成倒数第二名了……</p>
+<p>游戏的概念：</p>
+<p><strong>失败也是EXP。</strong></p>
+<p>在游戏中尤其明显，而在生活中很难感知。正因为在这里我遇到敌人被射死，下次我走到这个地方就会注意，我会越来越熟悉这个地图；正因为这个弯道我没过好，所以我输给了其他车手。那么下一次玩之前我们都会想：到了那个拐角，我应该用什么武器？上一次用了燃烧弹，效果不好，要不这次试试左轮手枪？上一次这个弯道，我刹车踩太多，油门踩太早，要不下一次用手刹？等等……下一次尝试可能还会失败，但是失败就意味着你明白了某种方法行不通，或者某个微操不够好，就会改进……</p>
+<p>现实中的任务没有这么详尽的数据，HUD，反馈机制，也比游戏难得多，很多时候我们不知道自己做的到底好不好，大部分时候自知做的很烂，又不知道如何改进，于是失去了继续改进的动力开始拖延……</p>
+<p>那么在现实生活中，如何给自己改进的动力和参考呢？我们可以给自己设定数据/升级/等级机制，还可以自行寻找反馈。</p>
+<p>比如：</p>
+<ul>
+<li><p><strong>寻找标杆</strong>。正如驾驶俱乐部中，计时赛你会看到幽灵车在你前边跑着（那就是你要超越的标杆），跟着它轨迹超过它就行；生活中也是如此，找个榜样，找做的特好的简历和作品集，看着改。</p>
+</li>
+<li><p><strong>寻找教程/经验</strong>。第一次玩TLOU网战，死的太惨，精神崩溃，立马搜索攻略，果然学会不少东西：站起来跑会被敌人听到；用消音的枪可以不被敌人发现；扔出去的钉子炸弹会马上爆炸；打穿防弹衣的敌人要打腿；举枪之前用屏幕中央预瞄……这些东西，如果自己耐心去玩多死几百次可能会发现，但是前人走过弯路留下了经验，你直接汲取，省时省力；工作学习上的事情更是如此，因为他们优先级更高，时间更紧迫……如果你能早点知道这样做是错的，那就省去试错的时间，这就是前人经验的力量。</p>
+</li>
+<li><p><strong>寻找真人意见</strong>。其实打游戏怎么提升最快呀？有个大神——不一定，有个朋友在旁看着，提醒你打枪以后要上弹，靠近战区要蹲下，多听敌人动静……输了以后告诉你刚才后方有敌人等等……你改进起来不就有了现成反馈很意见吗。对的。把你的简历和作品给朋友/前辈看吧！</p>
+</li>
+<li><p><strong>单机模式</strong>。害怕联机？害怕简历投出去马上被刷？先来点单机模式，教程模式，内测模式，把招式练熟了。</p>
+</li>
+<li><p>最后说一下 <strong>等级/经验值机制</strong>。在实际工作学习中，我们失败了却感觉不到自己的提升，这是很痛苦的，因为这样只感到挫败而没有成就感，很容易导致不敢继续尝试——最终拖延，影响自己的成长。</p>
+</li>
+</ul>
+<p>以下几个方案可以考虑：</p>
+<ul>
+<li><strong>10000小时理论</strong>。且不说这个理论到底合不合适。但是时间是最容易也最精准的一种衡量方式了。我们投入在一个工作上的时间是可以衡量的。假设暂定把升到顶级的EXP是10000，那么就朝着这个方向进发——以半个小时的番茄钟为例，你需要完成20000个番茄钟，那么当你看到自己完成了100个番茄钟的时候不管怎么说，都会有成就感的！番茄钟的另一个好处是限定你的工作时间，让你被固定在这段时间里只能工作，这和游戏就相仿了；一局游戏一般是半个小时左右，我们为了最后的游戏结果，通常不会中途退出的；而工作学习就不是这样了，很多时候连半小时不到我们就半途而废，那真正等于“没有结果”（无论是失败还是成功）。</li>
+</ul>
+<ul>
+<li><strong>记录</strong>。每天记录下来自己做过的事情，收获，失败和成长，回头看笔记时，就知道日子没有虚度。为了每天都能记下来失败/成功经历，你必须去完成任务，如果不挑战，哪来的失败和成长，只会有一纸空白罢了。</li>
+</ul>
+
           
-所有人一开始都是菜鸟。是在不断的被虐和死亡失败中成长起来。
-
-这是玩PS4联机网战的感受。作为一个娱乐型玩家，其实我打联机很少；自从买了PlayStation Plus，玩了第一把美国末日联机之后就停不下来，准确地说是输的停不下来……
-游戏的魅力也在于此：就算你输了，你也会想要继续尝试下一局，因为你得到了良好的反馈（正反馈：虽然我输了，可是我拿了一个人头；负反馈：我死了6次，是因为这里没瞄准……那里没蹲好……我们很清晰地知道自己下一局中可以做出那些改变、提升来做的更好，所以跃跃欲试）
-而现在的联机游戏基本都是如此：你开车最后一名，你玩联机死了6次，也一样会有经验值和升级。虽然有时候你觉得：玛德ZZ，明明我没有提升啊？可是当你死着死着，倒数倒数到了几十级，你就发现，诶，我没死那么多了，我开始变成倒数第二名了……
-游戏的概念：
-失败也是EXP。
-在游戏中尤其明显，而在生活中很难感知。正因为在这里我遇到敌人被射死，下次我走到这个地方就会注意，我会越来越熟悉这个地图；正因为这个弯道我没过好，所以我输给了其他车手。那么下一次玩之前我们都会想：到了那个拐角，我应该用什么武器？上一次用了燃烧弹，效
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/13/失败也是EXP/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
         
       
     </div>
@@ -811,26 +858,47 @@ Page的画布是无限大的，可以随意添加Artboard、图形。
       
         
           
-          对于每天都对着电脑屏幕的我们来说，电脑桌面的整洁程度和工作效率直接挂钩。在无数的窗口中，怎么样才能迅速找到需要的那一个呢？今天给大家介绍我工作时常用的三个小App，简单创造清爽的Mac桌面。
-#1 HazeOver：桌面灯塔
-​无论你使用什么系统--Windows或是Mac，包括已经加入了SplitView、多桌面的系统版本，都会遇到桌面一团乱麻的情况，在大小不一的程序窗口间寻找你要的那一个，简直就是噩梦有没有……时间长了，我就放弃了在眼花缭乱中的搜寻，而是直接在dock栏点选需要的App，自然效率也就低了许多。
+            <p>对于每天都对着电脑屏幕的我们来说，电脑桌面的整洁程度和工作效率直接挂钩。在无数的窗口中，怎么样才能迅速找到需要的那一个呢？今天给大家介绍我工作时常用的三个小App，简单创造清爽的Mac桌面。</p>
+<h1 id="1-HazeOver：桌面灯塔"><a href="#1-HazeOver：桌面灯塔" class="headerlink" title="#1 HazeOver：桌面灯塔"></a>#1 HazeOver：桌面灯塔</h1><p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-20-01 - 0 hazeover Logo.png" alt="01 - 0 hazeover Logo"></p>
+<pre><code>​无论你使用什么系统--Windows或是Mac，包括已经加入了SplitView、多桌面的系统版本，都会遇到桌面一团乱麻的情况，在大小不一的程序窗口间寻找你要的那一个，简直就是噩梦有没有……时间长了，我就放弃了在眼花缭乱中的搜寻，而是直接在dock栏点选需要的App，自然效率也就低了许多。
 
 ​有这么一个App，能够让你选中的那个程序窗口颜色高亮，和其他不活动的窗口形成鲜明对比——它就是HazeOver，小巧又实用。
 ​
 ​
-疗效首先让我们来看一眼，桌面的日常景象——各种窗口杂乱无章地堆在一起，找不到自己要用的那个：↓
-用了Hazeover以后，神奇的事情发生了……↓
-随着你的鼠标的点选，选中的窗口被高亮，其他的窗口变暗，操作的时候再也不会分心啦。
-设置Hazeover提供了很方便的设置，能够调节不活动窗口的明暗度——只需要用鼠标拖动这个直观的旋钮即可：
+</code></pre><h2 id="疗效"><a href="#疗效" class="headerlink" title="疗效"></a>疗效</h2><p>首先让我们来看一眼，桌面的日常景象——各种窗口杂乱无章地堆在一起，找不到自己要用的那个：↓<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-20-01-01 beforehazeover messydesk.jpg" alt="01-01 beforehazeover messydesk"></p>
+<p>用了Hazeover以后，神奇的事情发生了……↓<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-20-01- 02afterhazeover.gif" alt="01- 02afterhazeove"></p>
+<p>随着你的鼠标的点选，选中的窗口被高亮，其他的窗口变暗，操作的时候再也不会分心啦。</p>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p>Hazeover提供了很方便的设置，能够调节不活动窗口的明暗度——只需要用鼠标拖动这个直观的旋钮即可：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-20-hazeover_preferences_drag.gif" alt="hazeover_preferences_drag"></p>
+<p>还有更酷炫的设置方式，手势！<br>↓</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-20-hazeover_gesture.gif" alt="hazeover_gesture"></p>
+<p>在你设置好明暗度以后，Hazeover就会乖乖地呆在Mac的Menu Bar里，持续为你点亮当前窗口：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-20-hazeoverinbar.jpg" alt="hazeoverinba"></p>
+<p>有了Hazeover，再多的窗口也有了灯塔。</p>
+<h1 id="2-Moom：窗口任性摆！"><a href="#2-Moom：窗口任性摆！" class="headerlink" title="#2  Moom：窗口任性摆！"></a>#2  Moom：窗口任性摆！</h1><p>在和应用程序窗口斗智斗勇的过程中，另外一个大难题就是：窗口大小。Win7自带分屏，只需鼠标拖动就可以左右开弓工作。Mac的El Capitan系统中，有些原生应用也可以实现左右分屏了；但是，实际操作中，我可能需要四个窗口整齐排列占满桌面呢？像这样：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-02 moom 4.jpg" alt="02 moom 4"></p>
+<p>难道要一个个窗口手动去拖吗？<br>↓<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-02-01 without Moom.gif" alt="02-01 without Moo"></p>
+<p>手动拖动窗口大小带来的问题是，想要改变其大小，又要再拖一次……Moom就是为了解决桌面窗口布局而生的应用。</p>
+<p>有了Moom以后，窗口随便左右开弓，一边看着原型一边看着文档工作，岂不美哉：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-02-03 after Moom 1.gif" alt="02-03 after Moom 1"></p>
+<p>对任何一个窗口，采用多宫格的直观操作方式，想要多大就多大：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-02-03 after Moom 2.gif" alt="02-03 after Moom 2"></p>
+<p>在Moom的设置项中，可以对宫格的数量做自定义设置：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-02-02 Moom preferences2.jpg" alt="02-02 Moom preferences2"></p>
+<p>还可以设置快捷键，一键设置当前窗口的大小：</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-02-02 moom preferences 3.jpg" alt="02-02 moom preferences 3"></p>
+<p>有了Moom，窗口任性摆，再多窗口的工作流都能handle了。</p>
+<h1 id="3-Bartender：你的Menu-Bar管家"><a href="#3-Bartender：你的Menu-Bar管家" class="headerlink" title="#3 Bartender：你的Menu Bar管家"></a>#3 Bartender：你的Menu Bar管家</h1><p>Bartender，应用如其名，它管的就是Bar，哪条Bar呢？就是Mac的Menu Bar。Menu Bar应用非常方便，但是多起来以后……↓</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-03 before bartender.jpg" alt="03 before bartende"></p>
+<p>多起来除了影响美观，在使用一些大型应用的时候，会因为菜单的遮挡导致找不着你要用的Menu Bar应用。↓</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-14690221010065.jpg" alt=""></p>
+<p>那么用了Bartender以后会有什么神奇的事情发生呢？我们来看个魔术……<br>↓</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-03 after bartender 3 .gif" alt="03 after bartender 3 "></p>
+<p>Menu Bar上的图标都去哪儿了呢？是被Bartender收在了这里：<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-03 after bartender 2.jpg" alt="03 after bartender 2"></p>
+<p>一下子清爽了，有没有！</p>
+<p>将Menu Bar App收进Bartender的小锦囊很容易，而且Bartender提供了多种隐藏App的方式。连系统的App图标都可以隐藏哦！</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-07-22-03 howtoconfigurebartender.gif" alt="03 howtoconfigurebartende"></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>有了Hazeover高亮当前窗口，Moom来随意改变窗口大小和窗口位置，Bartender收起多余的Menu Bar App，一个清爽的Mac桌面打造完成！相信它们一定能给你带来效率的提升。</p>
 
-还有
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/01/3个App，打造清爽的Mac桌面：HazeOver, Moom, Bartender/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
         
       
     </div>
@@ -929,25 +997,29 @@ Page的画布是无限大的，可以随意添加Artboard、图形。
       
         
           
+            <blockquote>
+<p>20160701</p>
+</blockquote>
+<h1 id="别人的软件"><a href="#别人的软件" class="headerlink" title="别人的软件"></a>别人的软件</h1><p>自己做产品的时候，倒不觉得一个复杂的产品有什么难以理解的。等到看别人的工具产品，就觉得自己需要看教程……看书……马上害怕不敢动了。如果自己瞎鼓捣，打开就被界面懵逼。</p>
+<p>今天在测叮当2.1的时候，我在想，咋测啊，无从下手……突然间意识到，用一个产品，从你设计这个产品的思路出发试试。把流程，功能，系统，用Workflowy做好大纲，一目了然。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/%E6%88%AA%E5%9B%BE%202016-07-01%2016%E6%97%B618%E5%88%8602%E7%A7%92.jpg" alt="title"></p>
+<p>其实就是这个道理。任务再庞大，也可以分成小任务各个击破。软件再复杂，可以分为不同的系统、功能、字段，呈现出来就是我们常说的 流程图、产品架构图、需求文档、原型稿。注意他们产生的先后顺序。同理，如果你先画原型，再想流程，这原型肯定要改个没完；同理，如果只是盯着这软件界面傻看，那肯定会懵逼……从根抓起，理解其背后的逻辑和思维。</p>
+<h1 id="父与子，系统和功能"><a href="#父与子，系统和功能" class="headerlink" title="父与子，系统和功能"></a>父与子，系统和功能</h1><p>所以要点就是:</p>
+<ul>
+<li>1 理解原理，理清逻辑，名词解释</li>
+</ul>
+<p>不知其所以然，就算掌握了再多奇技淫巧，总有一天遇到版本更新——啊，宝宝不会用了。<br>前段时间读到一本有趣的讲Excel如何用的书，它不是像教科书一样按部就班教你用每个功能，而是告诉你Excel的本质，就简单一句话：格子们，它是存储数据的。数据。数据。<br>假如你把Excel当成九宫格写日记一样地去处理数据，随意合并单元格，那么那些为数据而生的功能就不能发挥作用了。<br>（当然可以当日记用。只要不是处理数据的话。）</p>
+<ul>
+<li>2 分清层次，拎出爸爸，找出儿子。</li>
+</ul>
+<p>简单来说，就是你给这产品画个产品架构图（or逻辑图）。</p>
+<p>（说到这里，发现大家都在写互联网产品的分析报告啥的。什么时候我来写一个大型工具报告。（WORD,PS……这种巨兽</p>
+<ul>
+<li>3 理解系统，走遍流程</li>
+</ul>
+<p>这样下来，再难的工具巨兽，也能轻松搞定了吧。</p>
+
           
-20160701
-
-别人的软件自己做产品的时候，倒不觉得一个复杂的产品有什么难以理解的。等到看别人的工具产品，就觉得自己需要看教程……看书……马上害怕不敢动了。如果自己瞎鼓捣，打开就被界面懵逼。
-今天在测叮当2.1的时候，我在想，咋测啊，无从下手……突然间意识到，用一个产品，从你设计这个产品的思路出发试试。把流程，功能，系统，用Workflowy做好大纲，一目了然。
-
-其实就是这个道理。任务再庞大，也可以分成小任务各个击破。软件再复杂，可以分为不同的系统、功能、字段，呈现出来就是我们常说的 流程图、产品架构图、需求文档、原型稿。注意他们产生的先后顺序。同理，如果你先画原型，再想流程，这原型肯定要改个没完；同理，如果只是盯着这软件界面傻看，那肯定会懵逼……从根抓起，理解其背后的逻辑和思维。
-父与子，系统和功能所以要点就是:
-
-1 理解原理，理清逻辑，名词解释
-
-不知其所以然，就算掌握了再多奇技淫巧，总有一天遇到版本更新——啊，宝宝不会用了。前段时间读到一本有趣的讲Excel如何用的书，它不是像教科书一样按部就班教你用每个功能，而是告诉你Excel的本质，就简单一句话：格子们，它是存储数
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/07/01/我们为什么会觉得一个软件很难/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
         
       
     </div>
@@ -1046,17 +1118,11 @@ Page的画布是无限大的，可以随意添加Artboard、图形。
       
         
           
-          date: 2016-06-28 09:13:16author: aalei521email: aalei521@outlook.comsite:ip: 218.2.102.114
-aaaaaa
-
+            <p>date: 2016-06-28 09:13:16<br>author: aalei521<br>email: aalei521@outlook.com<br>site:<br>ip: 218.2.102.114</p>
+<p>aaaaaa</p>
+<hr>
 
           
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/06/30/WordPress被黑后记：一分钟拯救你的WordPress博客站点.comments/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
         
       
     </div>
@@ -1155,26 +1221,24 @@ aaaaaa
       
         
           
+            <blockquote>
+<p>这是个大问题，所以：<br>此文status：草稿状态。边写边想，欢迎指正。<br>有待完善例子。</p>
+</blockquote>
+<p>正文开始。</p>
+<p>我是个向往技术的人，成天刷些技术论坛，自己也用空闲时间学一学编程。</p>
+<p>当然了，很多论调都说“PM不需要懂技术”；也有人说“PM懂技术，流氓会武术”。在我看来，懂技术的好处不在于“哎呀我会编程我能把自己的Idea写成App”！这样固然好，但是对于PM职能来说，是加分项，不是必备项。</p>
+<p>但是对于任何互联网从业人员，无论你做的是什么工作，什么岗位，逻辑思维都非常重要。学习计算机科学，可以让人的逻辑思维得到锻炼，更显著的疗效是——因为你理解了你的产品的最终形态（web or App）产生的过程，你才知其所以然。</p>
+<p>我现在实习的公司的产品，作为平台+工具型的产品，面对的用户有两端，功能上非常复杂。假如对技术毫无了解，就会出现以下情况：</p>
+<blockquote>
+<p>“打个包就好了。”<br>“什么是打包？”<br>“扩展字段是什么？组件是什么？”<br>“这里可以换图吗？”</p>
+</blockquote>
+<p>这些对话让人精神崩溃。当然，用着用着，新人很快就能打出一个包，生产出一个像样的APP来，但是很有可能，ta还是没明白：”这里为什么不可以换图“。</p>
+<p>当然，这些问题，可以通过完善的需求文档名词解释、运营姐姐的耐心辅导解决——可是，你是这个产品的缔造者之一呀，你应该对用户解释，为什么会这样，应该怎么做。如果自己都不理解，那怎么让用户理解？</p>
+<p>基本的技术知识，会让你理解”接口“，”数据“，”样式“，以及它们之间的耦合关系，你会知道一个组件显示什么和它背后绑定的数据有关系（有时候，只要知道到这一层，就真的够了）。如果懵懵懂懂只是按照习惯和记忆去完成流程，不代表你真的理解了一个工具。那么下一次产品经理改版，你可能提不出什么意见，或者干脆就是”干啥？干啥玩意儿？“ </p>
+<p>我觉得，“人人都是产品经理”这句话的意思，不是说让人人都去争这个岗位。这话的意思，是告诫互联网从业者，我们每个人都是我们负责的产品的缔造者，不管是爹妈还是兄弟姐妹，都是有责任的：要理解它，理解它背后的逻辑和运作机制，才能更好地为它的发展做出贡献；而不是囿于自己的职能，设计照着PM的原型图画画儿，开发照着需求文档和设计稿写代码，运营照着新版本的样儿去推广，到头来只有产品经理知道这是咋回事。</p>
+<p>以我现有的浅浅的工作经验来看，我发现最会用公司产品的人是运营和测试；前者对界面细节了解的无以复加；后者对技术细节和流程知根知底。产品经理，有时候忙着跟进新需求，对产品现状的某些细节反倒不是那么熟悉（这当然是不对的，也是无奈的）。因此，请教运营和测试，会对自己设计的产品有更深的了解。但是，了解和理解是两码事情。如果一个团队里只有产品经理一个人真正地“理解”产品，这个产品的成长还是会受到很大的限制。</p>
+
           
-这是个大问题，所以：此文status：草稿状态。边写边想，欢迎指正。有待完善例子。
-
-正文开始。
-我是个向往技术的人，成天刷些技术论坛，自己也用空闲时间学一学编程。
-当然了，很多论调都说“PM不需要懂技术”；也有人说“PM懂技术，流氓会武术”。在我看来，懂技术的好处不在于“哎呀我会编程我能把自己的Idea写成App”！这样固然好，但是对于PM职能来说，是加分项，不是必备项。
-但是对于任何互联网从业人员，无论你做的是什么工作，什么岗位，逻辑思维都非常重要。学习计算机科学，可以让人的逻辑思维得到锻炼，更显著的疗效是——因为你理解了你的产品的最终形态（web or App）产生的过程，你才知其所以然。
-我现在实习的公司的产品，作为平台+工具型的产品，面对的用户有两端，功能上非常复杂。假如对技术毫无了解，就会出现以下情况：
-
-“打个包就好了。”“什么是打包？”“扩展字段是什么？组件是什么？”“这里可以换图吗？”
-
-这些对话让人精神崩溃。当然，用着用着，新人很快就能打出一个包，生产出一个像样的APP来，但是很有可能，ta还是没明白：”这里为什么不可以换图“。
-当然，这些问题，可以通过完善的需求
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/06/30/互联网从业人员要不要懂技术？/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
         
       
     </div>
@@ -1273,24 +1337,22 @@ aaaaaa
       
         
           
-          讲过了我的WordPress博客被黑的故事，现在来介绍如何救活它。网上大把教程都非常复杂，对名词定义又不一，我在这里就说最简单的方法和步骤。
-原理：删除了被篡改的WP源码，然后用新的WP源码覆盖之。风险：你的主题文件和插件以及一些其他附件因此而消失。但是只要你的数据库没有被篡改，文章就都还在。所以，覆盖后一定要登录进WP的后台。主题文件损坏，你的主页是无法显示的。后台地址一般是http://你的域名/wp-admin/教训：要即时升级WordPress、插件和主题，避免漏洞被利用。密码最好定时更换。同时要经常备份你的数据。
-以我的WordPress博客为例，我用的是基于Linux系统的海外主机+CPanel控制面板。
-首先登录你的Cpanel
-进入文件管理器
-把/Public_html下边的所有文件删除。
-上传你的最新版，注意，是最新版本的WordPress包到根目录。
-解压到根目录。
-你的根目录会出现一个WordPress文件夹，
-将里边所有文件移到之前你已经清空的Public_html文件夹里。
-好了，在浏览器地址栏输入你的域名，看看是不是久违的WordPress设置页出新了？设置
-          ...
+            <p>讲过了我的WordPress博客被黑的故事，现在来介绍如何救活它。<br>网上大把教程都非常复杂，对名词定义又不一，我在这里就说最简单的方法和步骤。</p>
+<p><strong>原理</strong>：删除了被篡改的WP源码，然后用新的WP源码覆盖之。<br><strong>风险</strong>：你的主题文件和插件以及一些其他附件因此而消失。但是只要你的数据库没有被篡改，文章就都还在。所以，覆盖后一定要登录进WP的后台。主题文件损坏，你的主页是无法显示的。后台地址一般是<strong><a href="http://你的域名/wp-admin/" target="_blank" rel="external">http://你的域名/wp-admin/</a></strong><br><strong>教训</strong>：要即时升级WordPress、插件和主题，避免漏洞被利用。密码最好定时更换。同时要经常备份你的数据。</p>
+<p>以我的WordPress博客为例，我用的是<strong>基于Linux系统的海外主机+CPanel控制面板</strong>。</p>
+<p><strong>首先登录你的Cpanel</strong></p>
+<p><strong>进入<code>文件管理器</code></strong><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-06-15-14657175689873.jpg" alt=""></p>
+<p><strong>把<code>/Public_html</code>下边的所有文件删除。</strong><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-06-15-14657176610421.jpg" alt=""></p>
+<p><strong>上传你的最新版，注意，是最新版本的WordPress包到根目录。</strong><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-06-15-14657177084609.jpg" alt=""></p>
+<p><strong>解压到根目录。</strong><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-06-15-14657177310866.jpg" alt=""></p>
+<p><strong>你的根目录会出现一个WordPress文件夹，</strong><br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-06-15-14657177497361.jpg" alt=""></p>
+<p><strong>将里边所有文件移到之前你已经清空的Public_html文件夹里。</strong></p>
+<p>好了，在浏览器地址栏输入你的域名，看看是不是久违的WordPress设置页出新了？<strong>设置好你的数据库</strong>，就可以登录WordPress的管理后台了。</p>
+<p><em>这里要注意的是，你的用户名和密码很可能已经被黑客篡改，所以在登录时，选择找回密码，输入你的管理员邮箱，就可以重置密码。</em><br>我连用户名都被改了，sad。</p>
+<p>如果你像我一样，想要<strong>把WordPress的数据迁移到别的平台</strong>，在这里<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-06-15-14657180963692.jpg" alt=""></p>
+<p><strong>导出你的所有内容，获得一个XML文件</strong>，即可导入到支持的平台，比如我现在正在使用的Farbox。有时候，简洁和强大，不是一对反义词。</p>
 
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/06/12/WordPress被黑后记：一分钟拯救你的WordPress博客站点/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
         
       
     </div>
@@ -1389,24 +1451,70 @@ aaaaaa
       
         
           
-          Title: 适合文科生的Markdown编辑器：像前端一样写论文Date: 2016-02-18 16:44:24URL: /2016/02/18/markdowneditor/Tags: markdown , 写论文
-# 
-我一直在找适合文科生的Markdown编辑器，想像前端一样写论文。于是就有了这个总结。
-用 Markdown 写作用什么文本编辑器？
-这儿为你推荐N款好用的Markdown编辑器。我最喜爱的Mweb和Haroopad，放在最后，可以直接拉到底看。
-如果你是一个像我一样喜欢折腾技术折腾各种app的文科生，那么你可能有相似的经历和需求：
-在写我的硕士毕业论文（关于D.H.Lawrence的英国文学论文，预估两万字）的过程中，写作的主力工具是换了一个又一个，Evernote，Onenote，Word，Pages……这些富文本编辑器逐渐让我力不从心：
+            <p>Title: 适合文科生的Markdown编辑器：像前端一样写论文<br>Date: 2016-02-18 16:44:24<br>URL: /2016/02/18/markdowneditor/<br>Tags: markdown , 写论文</p>
+<p># </p>
+<p>我一直在找适合文科生的Markdown编辑器，想像前端一样写论文。于是就有了这个总结。</p>
+<p><a href="https://www.zhihu.com/question/19637157/answer/86906139" target="_blank" rel="external">用 Markdown 写作用什么文本编辑器？</a></p>
+<p>这儿为你推荐N款好用的Markdown编辑器。我最喜爱的<strong>Mweb</strong>和<strong>Haroopad</strong>，放在最后，可以直接拉到底看。</p>
+<p>如果你是一个像我一样喜欢折腾技术折腾各种app的文科生，那么你可能有相似的经历和需求：</p>
+<p>在写我的硕士毕业论文（<em>关于D.H.Lawrence的英国文学论文，预估两万字</em>）的过程中，写作的主力工具是换了一个又一个，Evernote，Onenote，Word，Pages……这些富文本编辑器逐渐让我力不从心：</p>
+<ul>
+<li>边写论文边用鼠标调格式，没两分钟我就烦了。最后格式一团糟。</li>
+<li>在这个编辑器里调好的格式，到另外一个编辑器里就完了。</li>
+<li>文章长度超过一万的时候，想要找到其中的一章一节进行修改，我鼠标滚轮都要变成风火轮了。<br>于是，我想到了<strong>Markdown</strong>……<br>还记得我在知乎看到某君说，“如果你心情好到要用Markdown来写论文的话。”<br>我心情就是那么好。所以——</li>
+</ul>
+<h2 id="能写论文的Markdown编辑器需要什么功能？"><a href="#能写论文的Markdown编辑器需要什么功能？" class="headerlink" title="能写论文的Markdown编辑器需要什么功能？"></a>能写论文的Markdown编辑器需要什么功能？</h2><ul>
+<li>行号（line number）+ 折叠展开（Markdown Folding）</li>
+<li><code>[TOC]</code> 目录/大纲功能</li>
+<li>一点都不卡的实时预览</li>
+<li>输出Word/PDF/HTML和多样的输出css选择</li>
+<li>本地保存或者和印象笔记连接</li>
+<li>养眼的主题和自定义样式<br>其中，行号和折叠展开、目录功能对写论文至关重要。<br>折叠展开是为了写论文的时候可以focus在某一章，把其他的章节都折叠起来。<br>目录可以让我跳转到任何一个章节进行修改。提升写论文的效率。<br>养眼的主题能让我写得更愉快。输出好看的格式可以直接拿给导师看。一点都不卡的预览才能知道我写的美不美呀~就酱！开始吧</li>
+</ul>
+<h2 id="寻找编辑器的旅程"><a href="#寻找编辑器的旅程" class="headerlink" title="寻找编辑器的旅程"></a>寻找编辑器的旅程</h2><p>一开始，我是被<a href="https://workflowy.com/" target="_blank" rel="external">Workflowy</a>和<a href="http://dynalist.io" target="_blank" rel="external">Dynalist</a>的大纲式文字管理模式给迷住了。OmniOutliner应该也是这样的模式。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-DYNALIST.png" alt="DYNALIST"><br><em>Dynalist</em></p>
+<p>在我高高兴兴地把自己的开题报告输进去以后，我发现一个问题……<br>那就是，输出为word（或者粘贴到word）的时候，那本来很美好的大纲缩进成了悲剧。因为最终要呈现的论文样式，是不能有这样的缩进的。简单来说，我们要递交的论文，其实和纯文本相差不大，只是有标题、段落和脚注而已。</p>
+<p>挣扎一段时间以后，我想到，如果Markdown编辑器能够提供折叠标题和大纲导航的功能，那么输出格式的问题不就解决了吗？</p>
+<p>要找到这样的东西，我觉得我已经用遍了市面上所有的Web在线Markdown编辑器和Mac、Win系统的MD编辑器……</p>
+<p>如果你也是一个对编程有兴趣，有纯文本情节的文科生，要写一篇长长的论文，那么以下是我的推荐：</p>
+<h2 id="适合文科生用的Markdown编辑器"><a href="#适合文科生用的Markdown编辑器" class="headerlink" title="适合文科生用的Markdown编辑器"></a>适合文科生用的Markdown编辑器</h2><h3 id="1-在线Web-app"><a href="#1-在线Web-app" class="headerlink" title="1.在线Web app"></a>1.在线Web app</h3><h4 id="马克飞象"><a href="#马克飞象" class="headerlink" title="马克飞象"></a><a href="maxiang.io">马克飞象</a></h4><p>大名鼎鼎的马克飞象，和Evernote无缝结合，</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-maxico.png" alt="maxico"><br><em>马克飞象</em></p>
+<p>有在线app和离线chrome app以及系统app，然而它们功能是一模一样的。<br>有行号+折叠，主题很多而且很美，用起来很顺溜，试用10天内可以和evernote同步。<br>一开始我是真想，就它算了，虽然它在本地不能那么方便的保存，也不能打开本地文件……<br>然而一年要79rmb，不是一次性购买，要年年付款啊，我……选择放弃。</p>
+<h4 id="作业部落CMD-Markdown"><a href="#作业部落CMD-Markdown" class="headerlink" title="作业部落CMD Markdown"></a><a href="https://www.zybuluo.com/" target="_blank" rel="external">作业部落CMD Markdown</a></h4><p>带有大纲功能！可以调转到你的各个章节很方便啊！同样可以同步到evernote。免费。<br>没有行号，没有折叠。<br>然而，主题真的不适合我。字还特大。还不能调。心酸。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-cmd%20markdown.png" alt="cmd markdown"><br><em>CMD MARKDOWN</em></p>
+<h4 id="小书匠"><a href="#小书匠" class="headerlink" title="小书匠"></a><a href="http://markdown.xiaoshujiang.com/" target="_blank" rel="external">小书匠</a></h4><p>有行号，有目录<br>设置非常丰富，可以自己自定义css，很棒！<br>感觉是国内做的在线MD编辑器功能最丰富的。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-%E5%B0%8F%E4%B9%A6%E5%8C%A0.png" alt="小书匠"><br><em>小书匠</em></p>
+<hr>
+<p>国外的编辑器也有很多，比如<a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a>,我感觉还是<a href="http://dillinger.io/" target="_blank" rel="external">Dillinger</a>最好用，可以把MD文件同步到Onedrive。界面很清爽。不能换主题。<br><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-Dillinger.png" alt="Dillinge"><br><em>Dillinger</em></p>
+<hr>
+<h3 id="2-Mac的Markdown编辑器"><a href="#2-Mac的Markdown编辑器" class="headerlink" title="2.Mac的Markdown编辑器"></a>2.Mac的Markdown编辑器</h3><p>作为Mac党，还是想要一款离线的本地App，可以随开随用的。就算没有同步功能，但是我可以存到本地，然后同步云盘嘛。</p>
+<p>著名的<strong>Mou</strong>和<strong>MacDown</strong>都是很好的MD编辑器，我没有用的原因是，它们太太太简约了，在编辑长文章的时候让人困扰。<strong>IA Writer</strong>和<strong>Typora</strong>这类极端简约（不带预览）的编辑器其实也很棒，如果你是想要专心写作，不像我要求丰富，完全可以尝试以上提到的轻量Markdown编辑器。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-TYpora.png" alt="TYpora"><br><em>Typora</em></p>
+<p>我的博客和网站都是基于Wordpress建立的，图床也是采用的七牛云存储，结果真的有这样一款app:Mweb,可以满足这些需求：</p>
+<ul>
+<li>把文章发布到Wordpress（虽然我还没会……</li>
+<li>把本地图片自动上传到七牛云</li>
+</ul>
+<h4 id="MWeb"><a href="#MWeb" class="headerlink" title="MWeb"></a><a href="http://zh.mweb.im/index.html" target="_blank" rel="external">MWeb</a></h4><p>虽然没有我心心念念的行号的折叠功能，但是发布功能很强大，又看到App作者的故事，我还是义无反顾地买下了Pro版，68RMB。</p>
+<p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-Mweb.png" alt="Mweb"><em>Mweb</em></p>
+<p>三栏的视图和大部分笔记软件很接近，可以用它代替笔记软件，建立自己的笔记系统和静态网站。视图功能很丰富，几乎满足使用Markdown的人的一切需求。</p>
+<p>虽然为知笔记也支持Markdown，可是为什么每次打开，都卡的不得了，而且文件还会丢失，心很痛，最后还是放弃了为知笔记。</p>
+<p>最良心的是作者一直在更新一直在更新。不像某些跳票的App作者。而且发邮件真的会回复，我这个用户的各种奇葩问题。23333</p>
+<p>现在成为我的Wordpress文章主力编辑工具。自动传图和完美的功能，简直棒呆！</p>
+<h4 id="相似Mac软件推荐："><a href="#相似Mac软件推荐：" class="headerlink" title="相似Mac软件推荐："></a>相似Mac软件推荐：</h4><p><strong>Ulysses</strong> 和 <strong>Quiver</strong> 都是Markdown语法的笔记软件。这意味着双栏实时预览不是主打功能，可能不是很好用。但是，做笔记是一流的，如果你不是需要最终将写作内容输出成完美格式，拿它们来做笔记也是甚好的！</p>
+<h4 id="HaroodPad"><a href="#HaroodPad" class="headerlink" title="HaroodPad"></a><a href="http://pad.haroopress.com/" target="_blank" rel="external">HaroodPad</a></h4><p><img src="http://7xqiwi.com1.z0.glb.clouddn.com/2016-02-18-Haroopad.png" alt="Haroopad"><br><em>Haroopad</em></p>
+<p>这是一个韩国开发团队的作品，它已经成为了我的论文主力编辑器。</p>
+<p>成功地满足了我的需求：</p>
+<ul>
+<li>行号+折叠+TOC目录</li>
+<li>丰富的主题+不卡的实时预览</li>
+<li>支持本地文件存储和读取</li>
+<li>输出的文件简直不要太美惹</li>
+</ul>
+<p>虽然还是有一些缺憾，比如不能和各种网盘无缝衔接，没有字体调整（得自己去写css）等等，但是已经近乎完美。写论文没错儿！</p>
+<h4 id="另外"><a href="#另外" class="headerlink" title="另外"></a>另外</h4><p>假如你是码农，而不是我这种对代码一知半解的文科生，<br>完全可以用你滴工作编辑器来打造Markdown编辑器，<br>比如<strong>Sublime Text</strong>装上Markdown插件，<br>或者<strong>Atom</strong>的各种Markdown+Folding+七牛package，应有尽有。<br>以上我都试过，然而我还需要继续学习。多多指教！</p>
 
-边写论文边用鼠标调格式，没两分钟我就烦了。最后格式一团糟。
-在这个编辑器里调好的格式，到另外一个编辑器里就完了。
-文章长度超过一万的时候，想要找到其中的一章一节进行修改，我鼠标滚轮都要变成风火轮了。于是，我想到了Mark
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/06/12/适合文科生的Markdown编辑器：像前端一样写论文/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
         
       
     </div>
